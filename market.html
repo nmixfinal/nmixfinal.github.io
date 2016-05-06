@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <title>Lucky Dog Collars</title>
+
+  <link rel="shortcut icon" href="img/favicon.png"> 
+
+  <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css">
+  <link rel="stylesheet" type="text/css" href="http://cdn.foundation5.zurb.com/foundation.css" />
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/style-responsive.css" /> 
+  <link rel="stylesheet" type="text/css" href="market.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+  <script src="market.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+ </head>
+
+ <body>
+
+
+
+  <div class="container">
+
+    <section class="start-page parallax-background" id="home" style="background:url('img/background/back03.jpg') #c0c0c0 bottom center fixed no-repeat;">
+
+      <div class="opacity"></div> <!-- Opacity color -->
+      <div class="content">
+        <div class="text">
+
+           <div class="logo"><img src="img/logo.png" style="width: 125px; height: 100px; margin:0 auto;"></div>
+
+          <h1>for</h1>
+          <p>Look good, do good. </p>
+          
+        </div>
+      </div>
+
+    </section>
+    <section class="menu">
+
+      <div class="menu-content">
+
+        <div class="logo">Lucky Dog Collars</div>
+
+        <ul id="menu">
+        <li><a href="index.html">Welcome</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="market.html">Market</a></li>
+        </ul>
+      </div>
+
+
+    </section>
+
+    <!-- section about us -->
+
+    <section class="about-us" id="about-us">
+      <div class="content">
+        <br />
+
+        <!-- control buttons -->
+        <div class="row">
+          <div class="small-12 columns small-centered">
+            <fieldset class="controls">
+              <br />
+              <div class="row">
+                <!-- filter buttons -->
+                <div class="small-8 columns" id="controlsfilter">
+                  <label>Filter:</label>
+                  <br />
+                  <button class="filter tiny round active" data-filter="all">All</button>
+                  <button class="filter tiny round" data-filter=".newyork">Material 1</button>
+                  <button class="filter tiny round" data-filter=".california">Material 2</button>
+                  <button class="filter tiny round" data-filter=".texas">Material 3</button>
+                </div>
+              </fieldset>
+            </div>
+          </div>
+          <br /> 
+          <div class="row">
+            <!-- container for images -->
+            <div class="small-12 columns small-centered">
+              <div class="yo" id="contain">
+                <ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-4">
+                <li class="mix newyork"><img border="0" src="img/collars/1.jpg"/></li>
+                  <li class="mix newyork"><img border="0" src="img/collars/2.jpg"/></li>
+                  <li class="mix california"><img border="0" src="img/collars/3.jpg"/></li>
+                  <li class="mix newyork"><img border="0" src="img/collars/4.jpg"/></li>
+                  <li class="mix texas"><img border="0" src="img/collars/5.jpg"/></li>
+                  <li class="mix newyork"><img border="0" src="img/collars/6.jpg"/></li>
+                  <li class="mix newyork"><img border="0" src="img/collars/7.jpg"/></li>
+                  <li class="mix california"><img border="0" src="img/collars/8.jpg"/></li>
+                  <li class="mix california"><img border="0" src="img/collars/9.jpg"/></li>
+                  <li class="mix newyork"><img border="0" src="img/collars/10.jpg"/></li>
+                  <li class="mix california"><img border="0" src="img/collars/11.jpg"/></li>
+                  <li class="mix newyork"><img border="0" src="img/collars/12.jpg"/></li>
+                  <li class="mix texas"><img border="0" src="img/collars/13.jpg"/></li>
+                  <li class="mix newyork"><img border="0" src="img/collars/14.jpg"/></li>
+                  <li class="mix newyork"><img border="0" src="img/collars/15.jpg"/></li>
+                  <li class="gap"/>
+                  <li class="gap"/>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <div class="clear"></div>  
+
+    </div>
+
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Modal header</h3>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+
+
+
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
+    <script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
+    <script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
+    <script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->	
+    <script src="js/jquery.parallax.js"></script> <!-- jQuery Parallax -->	
+    <script src="js/script.js"></script> <!-- All script -->	
+
+
+  </body>
+
+  </html>
