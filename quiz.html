@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <title>Lucky Dog Collars</title>
+
+  <link rel="shortcut icon" href="img/favicon.png"> 
+
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />      
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+ </head>
+
+ <body>
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.0/TweenMax.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.min.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+   <script src="quiz.js"></script>
+
+
+   <div class="preloader" id="preloader">
+    <div class="item">
+      <img src="img/loading.gif">
+    </div>
+  </div>
+
+
+  <div class="container">
+
+    <!-- section start-page -->
+
+    <section class="start-page parallax-background" id="home" style="background:url('img/background/back2.jpg') #c0c0c0 bottom center fixed no-repeat;">
+
+      <div class="opacity"></div> <!-- Opacity color -->
+      <div class="content">
+        <div class="text">
+
+           <div class="logo"><img src="img/logo.png" style="width: 125px; height: 100px; margin:0 auto;"></div>
+
+          <h1>for</h1><hr/>
+          <p>Look good, do good. </p>
+          
+           <a href="#about-us"><button class="read-more">Take the quiz</button></a>
+          
+        </div>
+        <div class="arrow-down"></div>
+      </div>
+
+    </section>
+
+    <!-- section menu mobile -->
+
+    <section class="menu-media">
+
+      <div class="menu-content">
+
+        <div class="logo">Lucky Dog Collars</div>
+
+        <div class="icon"><a href="#"><img src="img/icons/menu-media.png"/></a></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- section menu -->
+
+    <section class="menu">
+
+      <div class="menu-content">
+
+        <div class="logo">Lucky Dog Collars</div>
+
+                 <ul id="menu">
+        <li><a href="index.html">Welcome</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="market.html">Market</a></li>
+        </ul>
+      </div>
+
+
+    </section>
+
+    <ul class="menu-click">
+        <a href="#home"><li href="#home">Welcome</li></a>
+        <a href="#about-us"><li href="#about-us">About</li></a>
+        <a href="#portfolio"><li href="#portfolio">Quiz</li></a>
+        <a href="#contact"><li href="#contact">Market</li></a>
+        
+    </ul>
+
+
+    <!-- section about us -->
+
+    <section class="about-us" id="about-us">
+
+      <div class="content" id="size">
+
+        <h1>Size of the dog</h1>
+        <hr/>
+        <p class="title">First let's start off with the size of the dog. Not only does this give us an idea on how big the collar should be, but it also lets us know what material we should use to make the collar.</p>
+
+        <div class="column-one">
+        <div class="circle-one" id="size1"></div>
+          <h2>Under 30 lbs</h2>
+          <p>Your dog is fairly easy to carry around without a collar and you don't want the collar to be too strong in case it hurts the dog.</p>
+        </div>
+
+        <div class="column-two">
+          <div class="circle-two" id="size2"></div>
+          <h2>30 - 50 lbs</h2>
+          <p>Your dog is kinda hefty and you need a durable material that can move the dog around with ease.</p>
+        </div>
+
+        <div class="column-three">
+          <div class="circle-three" id="size3"></div>
+          <h2>Over 50 lbs</h2>
+          <p>Your dog's a behemoth and it's a good idea to get the sturdiest material possible.</p>
+        </div>  
+      </div>
+
+      <div class="content" id="breed">
+
+        <h1>Breed</h1>
+        <hr/>
+        <p class="title">We don't necessarily want the exact breed of the dog, but we want a general idea on its properties.</p>
+        <div class="column-one">
+          <div class="circle-one" id="breed1"></div>
+          <h2>Pudgy</h2>
+          <p>Your dog is short and stout. Think pugs, weinerdogs, and corgis.</p>
+        </div>
+
+        <div class="column-two">
+          <div class="circle-two" id="breed2"></div>
+          <h2>Average</h2>
+          <p>Pretty normal in terms of makeup. Think golden retriever and pitbulls.</p>
+        </div>
+
+        <div class="column-three">
+          <div class="circle-three" id="breed3"></div>
+          <h2>Long and Skinny</h2>
+          <p>The dog might be big, but is very skinny. Think greyhounds.</p>
+        </div>  
+      </div>
+
+      <div class="content" id="activity">
+
+        <h1>ACTIVITY</h1>
+        <hr/>
+        <p class="title">Every dog is different and every dog uses their collars differently; there is no need to put an athletic collar on a couch potato and vice versa. </p>
+        <div class="column-one">
+          <div class="circle-one" id="activity1"></div>
+          <h2>Lazy</h2>
+          <p>Your little buddy likes to lounge around and doesn't really go out much save for the occasional walk. </p>
+        </div>
+
+        <div class="column-two">
+          <div class="circle-two" id="activity2"></div>
+          <h2>Avg</h2>
+          <p>As active as a regular dog. Nothing too special about this.</p>
+        </div>
+
+        <div class="column-three">
+          <div class="circle-three" id="activity3"></div>
+          <h2>Active</h2>
+          <p>Your dog cannot stay still for a second! It's always playing with you, a toy, or something else within vicinity.</p>
+        </div>  
+      </div>
+
+      <div class="content" id="swag">
+
+        <h1>SWAG</h1>
+        <hr/>
+        <p class="title">Put simply; how much swag does your dog have? </p>
+        <div class="column-one">
+          <div class="circle-one" id="swag1"></div>
+          <h2>None</h2>
+          <p>Your dog is a very plain jane type of dog. Isn't really flashy.</p>
+        </div>
+
+        <div class="column-two">
+          <div class="circle-two" id="swag2"></div>
+          <h2>Very Little</h2>
+          <p>There's something there, but not anything to brag about.</p>
+        </div>
+
+        <div class="column-three">
+          <div class="circle-three" id="swag3"></div>
+          <h2>Swagaliscious!</h2>
+          <p>Boy oh boy, is that Kanye West? Nah, that's just your dog.</p>
+        </div>  
+      </div>
+
+      <div id="collar_choice">
+
+        <h2>Welp, based on your answers, we think you should buy...</h2>
+        <br/>
+        <br />
+        <br />
+        <br />
+        <br />
+        <img border="0" src="img/collars/9.jpg" style="width: 150px; height: 100px; margin:0 auto; display: block;
+    margin: 0 auto;"/>
+        <hr/>
+        <p>Psst...It's the a pretty dope collar.
+        </p>
+        </hr>
+
+
+
+      </div>
+        </div>
+
+
+
+
+    </section>
+
+    <div class="clear"></div>  
+
+
+    <!-- partners
+
+    <section class="partners parallax-background-partners" id="partners">
+
+      <div class="opacity"></div>
+
+      <div class="content">
+
+        <h2>Thanks for partners</h2>
+        
+        <div class="logo">
+
+          <a href="#"><img src="img/logos/alex1.png"></a>
+          <a href="#"><img src="img/logos/archiq.png"></a>
+          <a href="#"><img src="img/logos/thomsoon.png"></a>
+          <a href="#"><img src="img/logos/alex2.png"></a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+ -->
+ 
+    <!-- Contact-->
+
+  </div>
+
+
+
+  <!-- Scripts -->
+
+  <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script> <!-- jQuery -->
+  <script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
+  <script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
+  <script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
+  <script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script --> 
+
+  <script>
+   $(function(){
+
+     var $container = $('.grid');
+     
+     $container.imagesLoaded( function(){
+       $container.masonry({
+         itemSelector : 'li'
+       });
+     });
+     
+   });
+ </script>
+ <script src="js/jquery.parallax.js"></script> <!-- jQuery Parallax --> 
+ <script src="js/script.js"></script> <!-- All script --> 
+
+
+</body>
+
+</html>
